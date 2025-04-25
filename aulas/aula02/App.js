@@ -1,12 +1,10 @@
-import Flexbox from "./screens/Flexbox";
 import GaleriaScreen from "./screens/GaleriaScreen";
-import PadraoAndroid from "./screens/PadraoAndroid";
-import PadraoIOS from "./screens/PadraoIOS";
+import ProdutoScreen from "./screens/ProdutoScreen";
+import RegistrarScreen from "./screens/RegistrarScreen";
+import ConversaScreen from "./screens/ConversaScreen";
 
 function App() {
-  return (
-    <GaleriaScreen />
-  );
+  return <ConversaScreen />;
 }
 
 export default App;

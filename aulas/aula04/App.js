@@ -1,11 +1,12 @@
-import { SafeAreaProvider } from "react-native-safe-area-context";
-import LoginScreen from "./screens/LoginScreen";
-import ContactScreen from "./screens/ContactScreen";
+import { SafeAreaProvider} from "react-native-safe-area-context";
+import TaskScreen from "./screens/TaskScreens";
 
 function App () {
-  return <SafeAreaProvider>
-    <ContactScreen/>
-  </SafeAreaProvider>
+  return (
+    <SafeAreaProvider>
+      <TaskScreen/>
+    </SafeAreaProvider>
+  )
 }
 
 export default App;
